@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/index">  
+	<entry name="ship_ter_l_chiba_e" value="extensions\chiba_re_vro\assets\units\size_l\ship_ter_l_chiba_e"/>	
+	<entry name="ishield_ter_l_chiba_e" value="extensions\chiba_re_vro\assets\props\surfaceelements\ishield_ter_l_chiba_e"/>
+  </add>
+</diff>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<remove sel="/wares/ware[@id='ship_ter_l_carrier_01']"/>	<!--Remove VRO Chiba-->		
+	<add sel="//wares">
+		<ware id="ship_ter_l_chiba_e" name="{303003,31}" description="{303003,32}" group="ships_terran" transport="ship" size="ship" volume="1" tags="ship">
+			<price min="10458790" average="11933870" max="13608951" />
+			<production time="140" amount="1" method="default" name="{20206,33}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="230" />
+					<ware ware="energycells" amount="1100" />
+					<ware ware="metallicmicrolattice" amount="290" />
+				</primary>
+			</production>
+			<component ref="ship_ter_l_chiba_e_macro" amount="1" />
+			<restriction licence="militaryship" />
+			<owner faction="pioneers" />
+			<owner faction="terran" />
+		</ware>
+		<ware id="ishield_ter_l_chiba_e" name="{303003,33}" description="{303003,33}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21" />
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="ishield_ter_l_chiba_e_macro" amount="1" />
+			<use threshold="0" />
+			<restriction licence="generaluseequipment" />	
+		</ware>
+	</add>
+</diff>
